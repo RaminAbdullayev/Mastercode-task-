@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin-left: 45px;
+    margin-top: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+
+
+a {
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    margin-left: 80%;
+    gap: 70px;
+}
+
+#container {
+    display: flex;
+}
+
+.brend-text {
+    margin-top: 200px;
+    margin-left: 100px;
+    color: var(--Black, #2D2D2D);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px; 
+}
+
+h1 {
+    margin-top: 46px;
+    margin-left: 100px;
+    font-family: Epilogue;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.header-about {
+    margin-top: 46px;
+    margin-left: 100px;
+    margin-bottom: 170px;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-images {
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 100px;
+}
+
+.img-1 {
+    position: absolute;
+    left: 300px;
+}
+
+.img-2 {
+    position: absolute;
+    left: -50px;
+    top: 375px;
+}
+
+.clients-image {
+    display: block;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.clients-image img {
+    margin-left: 90px;
+}
+
+.skills {
+    padding-left: 100px;
+    padding-top: 75px;
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.card, .card-1, .card-2 {
+    width: 350px;
+    height: 450px;
+    padding-left: 40px;
+    padding-top: 60px;
+    background-color: white;
+    margin-left: 50px;
+}
+
+.s-design {
+    font-size: 27px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 42px;
+    margin-bottom: 19px;
+}
+
+.card-text {
+    line-height: 27px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s-img {
+    padding-left: 50px;
+}
+
+.gallery-h {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px; 
+}
+
+.gallery-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.gallery-card img {
+    margin-bottom: 25px;
+}
+
+.gallery-card p {
+    margin-bottom: 10px;
+}
+
+.card-p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.card-p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.gallery-card-1 {
+    width: 330px;
+    height: 430px;
+}
+
+.main-comment {
+    margin-top: 80px;
+    margin-left: 160px;
+    margin-bottom: 149px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.card-comment {
+    background-color: #F3F3F3;
+    width: 330px;
+    height: 380px;
+}
+
+.google {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 27px; 
+    position: relative;
+    top: -12px;
+    margin-left: 73px;
+}
+
+.com-p {
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.comment-h {
+    margin-top: 150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px; 
+}
+
+.container-star {
+    display: flex;
+    width: 10px;
+    margin-left: 15px;
+}
+
+.container-star {
+    margin-left: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    display: flex;
+    gap: 300px;
+}
+
+.fa-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    padding-bottom: 36px;
+}
+
+.fa-text1 {
+    width: 359px;
+    color: #2D2D2D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 54px;
+}
+
+.name {
+    width: 450px;
+    height: 50px;
+    background-color: #f6f6f6;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.name::placeholder {
+    content: "Name";
+}
+
+.email {
+    width: 450px;
+    height: 50px;
+    background-color: #f6f6f6;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.text {
+    width: 450px;
+    height: 200px;
+    background-color: #f6f6f6;
+    margin-bottom: 20px;
+    border: none;
+}
+
+button {
+    width: 130px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    padding-top: 3px;
+    color: white;
+    background-color: #2D2D2D;
+}
+
+.f-img {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 375px) {
+    nav {
+        visibility: hidden;
+    }
+
+    .header-text {
+        margin-left: 160px;
+    }
+
+    .header-images {
+        margin-left: 210px;
+        margin-top: 650px;
+        margin-bottom: 500px;
+    }
+
+    .clients-image {
+        margin-top: 500px;
+        display: grid;
+        grid-template-areas: 
+        "i1" "i2"
+        "i3" "i4"
+        "i5" "i6"
+        ;
+row-gap: 50px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        text-align: center;
+        margin-left: 400px;
+    }
+    .skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-left: 100px;
+    }
+    .gallery-card {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-self: center;
+        margin-left: 240px;
+    }
+    .main-comment {
+        display: flex;
+        flex-direction: column;
+        margin-left: 240px;
+    }
+
+    .comment-h {
+        margin-left: 300px;
+    }
+    .gallery-h {
+        margin-left: 570px;
+        width: 200px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin-left: 240px;
+    }
+    .form {
+        margin-top: 100px;
+        align-content: center;
+    }
+    .fa-text {
+        width: 300px;
+    }
+}
